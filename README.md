@@ -10,7 +10,7 @@ npm install --save-dev gulp gulp-mocha babel-register babel-preset-es2015 chai
 package.json
 
 ```
-	{
+{
   "devDependencies": {
     "babel-preset-es2015": "^6.9.0",
     "babel-register": "^6.9.0",
