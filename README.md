@@ -51,3 +51,59 @@ gulp taskname
 
 ```
 See  - https://github.com/kukuu/AGILITY/blob/master/gulp-tdd.png
+
+
+## Moving from SASS to PostCSS
+
+
+### Initial setup
+For our setup you want to install gulp, gulp-postcss, gulp-sourcemaps, postcss-import, precss, Autoprefixer and cssnano
+yarn add -D gulp gulp-postcss gulp-sourcemaps postcss-import gulp-postcss autoprefixer cssnano gulp-postcss.
+
+### Imports
+
+Although import is already in CSS, postcss-import gives you some more flexibility over your imports looking into node_modules and other directories your specify, you may want to use this plugin at the top of your stack so all the transformation after this will process all your data at once as a single file.
+ 
+### SCSS Syntax
+You can implement SCSS like syntax in two way: cherry picking plugins or using precss which combines Sass-like syntactical sugar — like variables, conditionals, and iterators — with emerging CSS features — like color functions, logical and custom properties, media query ranges, and image sets.
+But if you want to go cherry picking there are some interesting ones that serve the same purpose:
+
+Variables: postcss-simple-vars
+
+Nested Selectors: postcss-nested
+
+Mixins: postcss-mixins
+
+### Autoprefixer
+Autoprefixer is a plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use.
+
+
+### Minification
+cssnano is a modern, modular compression tool written on top of the PostCSS ecosystem, which allows us to use a lot of powerful features in order to compact CSS appropriately.
+
+#### config file - gulpfile.js
+
+```
+gulp.task('css', () => {
+  const postcss = require('gulp-postcss');
+  const sourcemaps = require('gulp-sourcemaps');
+  const postcssImport = require('postcss-import');
+  const precss = require('precss');
+  const autoprefixer = require('autoprefixer');
+  const cssnano = require('cssnano');
+  return gulp
+    .src('src/**/*.css')
+    .pipe(sourcemaps.init())
+    .pipe(postcss([
+      postcssImport(),
+      precss(),
+      autoprefixer(),
+      cssnano(),
+    ]))
+    .pipe(sourcemaps.write('.'))
+    .pipe(gulp.dest('build/'));
+});
+
+gulp.task('default', ['css']);
+
+```
