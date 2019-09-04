@@ -107,3 +107,6 @@ gulp.task('css', () => {
 gulp.task('default', ['css']);
 
 ```
+## Related
+
+https://github.com/kukuu/testing-with-Jest
