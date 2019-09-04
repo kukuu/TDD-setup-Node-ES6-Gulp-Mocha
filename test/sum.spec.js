@@ -2,10 +2,10 @@ import {expect} from 'chai';
 import sum from '../src/sum.js';
 
 describe('src/sum.js', () => {
-    it('should add 1 + 1 to make two', () => {
-        let result = sum(1,1);
+    it('should add 1 + 9 to make two', () => {
+        let result = sum(1,9);
 
-        expect(result).to.equal(2);
+        expect(result).to.equal10);
     })
 
     it('should add 1, 2 and 3 to make six', () => {
