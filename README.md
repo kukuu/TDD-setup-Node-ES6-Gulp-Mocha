@@ -109,4 +109,6 @@ gulp.task('default', ['css']);
 ```
 ## Related
 
-https://github.com/kukuu/testing-with-Jest
+https://github.com/kukuu/testing-with-Jest 
+
+https://github.com/kukuu/styled-components-in-ReactJS/blob/master/README.md
