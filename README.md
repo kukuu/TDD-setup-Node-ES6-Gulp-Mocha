@@ -113,4 +113,6 @@ https://github.com/kukuu/testing-with-Jest
 
 https://github.com/kukuu/styled-components-in-ReactJS/blob/master/README.md 
 
-https://github.com/kukuu/AGILITY/blob/master/gulp-tdd.png
+https://github.com/kukuu/AGILITY/blob/master/gulp-tdd.png 
+
+https://github.com/kukuu/AGILITY/blob/master/test-pyramid-coverage.jpg
