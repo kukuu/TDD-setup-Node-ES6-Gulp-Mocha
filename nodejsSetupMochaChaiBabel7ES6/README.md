@@ -191,7 +191,7 @@ As a JS Engineer, I rather debug my code using a browser than an IDE. Fortunatel
 After 'npm run debug' you can see the following message:
 
 
-https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha/blob/master/nodejsSetupMochaChaiBabel7ES6/4.png
+https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha/blob/master/nodejsSetupMochaChaiBabel7ES6/4.jpg
 
 
 
