@@ -19,11 +19,11 @@ npm install --save-dev @babel/cli @babel/core @babel/node @babel/register @babel
 
 After the installation our package.json should look like this:
 
-```
+
 
 https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha/blob/master/nodejsSetupMochaChaiBabel7ES6/1.png
 
-```
+
 
 Babel 7 packages are now “scoped” so the old babel-cli became @babel/cli.
 
@@ -52,11 +52,11 @@ To see the result, copy and paste the following script to your package.json.
 After typing npm start in the console/terminal, you will see something like this:
 
 
-```
+
 
 https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha/blob/master/nodejsSetupMochaChaiBabel7ES6/2.png
 
-```
+
 
 Nodemon monitors every change in your code and automatically starts the application again if you change something. Place an ES6 export statement to the end of the index.js file and run the app again.
 
@@ -68,11 +68,11 @@ export default sayHello
 
 The result is:
 
-```
+
 
 https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha/blob/master/nodejsSetupMochaChaiBabel7ES6/3.png
 
-```
+
 
 
 
@@ -190,20 +190,19 @@ As a JS Engineer, I rather debug my code using a browser than an IDE. Fortunatel
 
 After 'npm run debug' you can see the following message:
 
-```
 
 https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha/blob/master/nodejsSetupMochaChaiBabel7ES6/4.png
 
-```
+
 
 
 Take the highlighted string that was generated for you and append it to this url. Replace [xxxx]:
 
 
-```
+
 https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha/blob/master/nodejsSetupMochaChaiBabel7ES6/5.png
 
-```
+
 
 ```
 
