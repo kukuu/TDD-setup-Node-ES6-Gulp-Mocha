@@ -21,7 +21,7 @@ After the installation our package.json should look like this:
 
 ```
 
-[tba]
+https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha/blob/master/nodejsSetupMochaChaiBabel7ES6/1.png
 
 ```
 
@@ -54,7 +54,7 @@ After typing npm start in the console/terminal, you will see something like this
 
 ```
 
-[tba]
+https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha/blob/master/nodejsSetupMochaChaiBabel7ES6/2.png
 
 ```
 
@@ -70,7 +70,7 @@ The result is:
 
 ```
 
-[tba]
+https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha/blob/master/nodejsSetupMochaChaiBabel7ES6/3.png
 
 ```
 
@@ -192,12 +192,18 @@ After 'npm run debug' you can see the following message:
 
 ```
 
-[tba]
+https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha/blob/master/nodejsSetupMochaChaiBabel7ES6/4.png
 
 ```
 
 
 Take the highlighted string that was generated for you and append it to this url. Replace [xxxx]:
+
+
+```
+https://github.com/kukuu/TDD-setup-Node-ES6-Gulp-Mocha/blob/master/nodejsSetupMochaChaiBabel7ES6/5.png
+
+```
 
 ```
 
