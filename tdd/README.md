@@ -12,5 +12,5 @@ Refactor is done to enhance:
 
 ## Run test
 
-1. yarn add add -D jest
+1. yarn add -D jest
 2. yarn jest
